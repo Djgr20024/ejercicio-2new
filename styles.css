@@ -20,3 +20,14 @@ header {
     text-align: center;
     margin-bottom: 2rem;
 }
+
+/* Contenedor principal de las noticias */
+.news-container {
+    display: grid;
+    /* Crea columnas que se adaptan al tamaño de la pantalla */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenedor */
+}
